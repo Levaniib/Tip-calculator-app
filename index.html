@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./style.css">
+    <title>Document</title>
+</head>
+<body>
+    <header>
+        <img src="./SPLITTER.png" alt="">
+    </header>
+    <div class="card">
+        <div class="left">
+            <label for="bill">Bill</label>
+            <div class="billy">
+                <div><img src="./$.png" alt=""></div>
+            <input type="number" name="bill" id="bill" placeholder="0">
+        </div>
+            <p>Select Tip %</p>
+            <div class="percent" id="myDiv">
+                <button value="5">5%</button>
+                <button value="10">10%</button>
+                <button value="15">15%</button>
+                <button value="25">25%</button>
+                <button value="50">50%</button>
+                <input type="number" name="perc" id="perc" placeholder="Custom">
+            </div>
+            <div class="lavel">
+            <label for="people">Number of People</label>
+            <label for="people" class="zero" id="zero">Can't Be Zero</label>
+        </div>
+            <div class="peopleDiv" id = "peopleDiv">
+                <img src="./Group 8 (1).png" alt="">
+                <input type="number" name="people" id="people" placeholder="0" >
+
+            </div>
+        </div>
+        <div class="right">
+            <div class="pe">
+                <div class="text">
+                    <h3>Tip Amount</h3>
+                    <h2 class="kveda">/ person</h2> 
+             </div>
+             <span id="s1"> $0.00</span>
+            </div>
+            <div class="pe">
+                <div class="text">
+                    <h3>Total</h3>
+                    <h2 class="kveda">/ person</h2>
+                </div>
+                <span id="s2">$0.00</span>
+
+            </div>
+            <button id="reset" class="reset">RESET</button>
+        </div>
+    </div>
+
+
+
+    
+    
+    <script src="./main.js"></script>
+</body>
+</html>

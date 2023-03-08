@@ -1,0 +1,280 @@
+@import url('https://fonts.googleapis.com/css2?family=Barlow&family=Mynerve&family=Poppins&family=Red+Hat+Display&family=Space+Mono&family=Ubuntu&display=swap');
+
+body{
+    background-color: #C5E4E7;
+    max-width: 1440px;
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    align-items: center;
+    flex-wrap: wrap;
+}
+
+header{
+    width: 86.66px;
+height: 53.14px;
+color: #3D6666;;
+}
+
+.card{
+max-width: 920px;
+width: 100%;
+height: 481px;
+background: #FFFFFF;
+box-shadow: 0px 32px 43px rgba(79, 166, 175, 0.200735);
+border-radius: 25px;
+display: flex;
+justify-content: space-evenly;
+align-items: center;
+flex-wrap: wrap;
+
+}
+
+.left{
+    max-width: 379px;
+max-Height: 388px;
+width: 100%;
+height: 388px;
+display: flex;
+flex-direction: column;
+justify-content: space-evenly;
+}
+
+.right{
+    background-color: #00474B;
+border-radius: 15px;
+max-width: 413px;
+height: 417px;
+width: 100%;
+display: flex;
+flex-direction: column;
+justify-content: space-around;
+align-items: center;
+}
+
+#bill{
+    background: #F3F9FA;
+border-radius: 5px;
+max-width: 200px;
+border: 0;
+height: 48px;
+font-family: 'Space Mono';
+font-style: normal;
+font-weight: 700;
+font-size: 24px;
+line-height: 36px;
+/* identical to box height */
+text-align: right;
+color: #00474B;
+mix-blend-mode: normal;
+outline: none;
+}
+
+.billy{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background: #F3F9FA;
+    border-radius: 5px;
+    max-width: 397px;
+    width: 100%;
+    height: 48px;
+    padding-left: 10px;
+    padding-right: 10px;
+}
+
+.percent{
+    display: flex;
+    max-width: 379px;
+    width: 100%;
+    flex-wrap: wrap;
+    gap: 12px;
+}
+
+.percent button{
+    background: #00474B;
+    border-radius: 5px;
+    width: 117px;
+    height: 48px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family: 'Space Mono';
+font-style: normal;
+font-weight: 700;
+font-size: 24px;
+line-height: 36px;
+text-align: center;
+color: #FFFFFF;
+}
+
+#perc{
+    border-radius: 5px;
+    width: 117px;
+    height: 48px;
+    border: 0;
+
+background-color: #F3F9FA;
+border-radius: 5px;
+text-align: center;
+font-family: 'Space Mono';
+font-style: normal;
+font-weight: 700;
+font-size: 24px;
+line-height: 36px;
+
+
+}
+
+
+#people{
+    background: #F3F9FA;
+    border-radius: 5px;
+    max-width: 200px;
+    border: 0;
+    height: 46px;
+    font-family: 'Space Mono';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 24px;
+    line-height: 36px;
+    text-align: right;
+    color: #00474B;
+    mix-blend-mode: normal;
+    outline: none;
+}
+
+.peopleDiv{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background: #F3F9FA;
+    border-radius: 5px;
+    max-width: 397px;
+    width: 100%;
+    height: 48px;
+    padding-left: 10px;
+    padding-right: 10px;
+}
+
+p{
+    margin: 0;
+    font-family: 'Space Mono';
+font-style: normal;
+font-weight: 700;
+font-size: 16px;
+line-height: 24px;
+/* identical to box height */
+
+
+color: #5E7A7D;
+}
+
+label{
+    font-family: 'Space Mono';
+font-style: normal;
+font-weight: 700;
+font-size: 16px;
+line-height: 24px;
+color: #5E7A7D;
+}
+
+
+.pe{
+    display: flex;
+    justify-content: space-between;
+    max-width: 333px;
+    width: 100%;
+    height: 71px;
+}
+
+.text{
+    max-width: 98px;
+    width: 100%;
+    height: 44px;
+    display: flex;
+    flex-direction: column;
+    margin: 0;
+}
+
+.text h3{
+    margin: 0;
+    font-family: 'Space Mono';
+font-style: normal;
+font-weight: 700;
+font-size: 16px;
+line-height: 24px;
+/* identical to box height */
+
+
+color: #FFFFFF;
+}
+
+.kveda{
+    margin: 0;
+    font-family: 'Space Mono';
+font-style: normal;
+font-weight: 700;
+font-size: 13px;
+line-height: 19px;
+color: #7F9D9F;
+
+}
+
+#s1{
+    font-family: 'Space Mono';
+font-style: normal;
+font-weight: 700;
+font-size: 48px;
+line-height: 71px;
+text-align: right;
+letter-spacing: -1px;
+color: #26C2AE;
+}
+
+#s2{
+    font-family: 'Space Mono';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 48px;
+    line-height: 71px;
+    text-align: right;
+    letter-spacing: -1px;
+    color: #26C2AE;
+}
+
+.reset{
+    background: #0D686D;
+border-radius: 5px;
+max-width: 333px;
+height: 48px;
+width: 100%;
+font-family: 'Space Mono';
+font-style: normal;
+font-weight: 700;
+font-size: 20px;
+line-height: 30px;
+text-align: center;
+background-color: #0D686D;
+color: #00474B;
+mix-blend-mode: normal;
+
+}
+
+input::-webkit-inner-spin-button {
+    -webkit-appearance: none;
+    margin: 0;
+  }
+
+.lavel{
+    display: flex;
+    justify-content: space-between;
+}
+
+.zero{
+    color: red;
+    display: none;
+}
+
